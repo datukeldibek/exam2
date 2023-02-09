@@ -11,8 +11,8 @@ class Game {
                              [FieldType.empty.rawValue, FieldType.empty.rawValue, FieldType.empty.rawValue],
                              [FieldType.empty.rawValue, FieldType.empty.rawValue, FieldType.empty.rawValue]]
     
-    var o = FieldType.o.rawValue
-    var x = FieldType.x.rawValue
+    internal var o = FieldType.o.rawValue
+    internal var x = FieldType.x.rawValue
     
     func show() {
         for line in array {
