@@ -11,3 +11,4 @@ enum FieldType: String {
     case x = "❌"
     case empty = "⬜"
 }
+
